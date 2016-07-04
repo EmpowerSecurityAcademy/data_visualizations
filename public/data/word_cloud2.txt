@@ -1,0 +1,37 @@
+3	SecDevOps
+3	network
+3	python
+2	cryptography
+2	firewall
+2	RESTful
+2	OWASP
+2	nmap
+2	WAF
+1	cybersecurity
+1	elasticsearch
+1	prevention
+1	metasploit
+1	automation
+1	compliance
+1	monitoring
+1	wireshark
+1	scripting
+1	intrusion
+1	security
+1	logging
+1	mongodb
+1	docker
+1	nessus
+1	linux
+1	HIPAA
+1	mysql
+1	khali
+1	bash
+1	PCI
+1	OSI
+1	AWS
+1	API
+1	aws
+
+
+http://www.wordclouds.com/

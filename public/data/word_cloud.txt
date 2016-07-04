@@ -1,0 +1,36 @@
+python 
+command line
+aws 
+mysql 
+mongodb 
+intrusion prevention systems
+firewall
+khali linux
+wireshark
+nmap
+cryptography
+nessus
+network
+OSI model
+WAF
+risk + compliance
+elasticsearch
+network monitoring
+cybersecurity fundamentals
+metasploit
+network architecture
+scripting
+RESTful API
+SecDevOps
+PCI Compliance
+HIPAA Compliance
+bash
+OWASP Top Ten
+Burp Suite
+logging
+docker
+task automation
+AWS security
+
+
+https://www.jasondavies.com/wordcloud/
