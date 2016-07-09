@@ -21,7 +21,7 @@
     {
      "name": "knowledge",
      "children": [
-      {"name": "khali linux", "size": 700},
+      {"name": "kali linux", "size": 700},
       {"name": "metasploit", "size": 700},
       {"name": "nessus", "size": 750},
       {"name": "nmap", "size": 800},
