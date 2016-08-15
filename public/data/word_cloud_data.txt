@@ -1,0 +1,16 @@
+3	MySQL
+3	Python
+3	AWS
+2	visualization
+2	pipelines
+2	machinelearning
+2	analysis
+2	statistics
+2	NoSQL
+1	pandas
+1	elasticsearch
+1	kinesis
+1	hadoop
+1	automation
+1	redshift
+1	R
