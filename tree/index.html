@@ -7,7 +7,7 @@
 }
 
 .node text {
-  font: 10px sans-serif;
+  font: 20px sans-serif;
 }
 
 .node--internal circle {
@@ -25,23 +25,28 @@
   stroke-width: 1.5px;
 }
 
+#bla {
+  left:-500px;
+  float: right;
+}
+
 </style>
-<svg width="960" height="2000"></svg>
+<svg id="bla" width="1400" height="1000"></svg>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.js"></script>
 <script>
 
 var svg = d3.select("svg"),
     width = +svg.attr("width"),
     height = +svg.attr("height"),
-    g = svg.append("g").attr("transform", "translate(40,0)");
+    g = svg.append("g").attr("transform", "translate(300,0)");
 
 var tree = d3.cluster()
-    .size([height, width - 160]);
+    .size([height, width - 1000]);
 
 var stratify = d3.stratify()
     .parentId(function(d) { return d.id.substring(0, d.id.lastIndexOf(".")); });
 
-d3.csv("empower.csv", function(error, data) {
+d3.csv("/empower_csv", function(error, data) {
   if (error) throw error;
 
   var root = stratify(data)
